@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="bind">
+      <UniqueIdentifier>{5bf2e50c-202a-444b-929c-53722e83b471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="bind\_private">
+      <UniqueIdentifier>{878d258d-0f30-4815-8b74-aca6b4491341}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_bind_m.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_bind_macro.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_bind_mf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_bind_mfo.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_bind_sf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_delegate_mf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_delegate_sf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_function.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_function_type.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_guard.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_guard_mf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_guard_sf.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_delegate.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_function.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_function_o.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_operator.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_operator_o.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_m_param_count.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_param_count.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_s_delegate.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_s_function.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_s_operator.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_s_param_count.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\bind.h">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\bind.hpp">
+      <Filter>bind</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_f_param.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_f_sig.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_i_arg.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_p_list.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_s_value.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_v_list.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+    <ClInclude Include="bind\_private\_f_invoker.h">
+      <Filter>bind\_private</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
